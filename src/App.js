@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/Navbar';
 
 function App() {
+  const brandName = "TutuMarket";
+  const categories = [
+    { id: 1, name: "Cocina y Alimentos" },
+    { id: 2, name: "Electrónica" },
+    { id: 3, name: "Hogar y Jardín" },
+  ];
+
   return (
+  <div className="App">
+    <NavBar brandName={brandName} categories={NavBar} />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <ItemListContainer greeting="¡Bienvenido a nuestro Market Online!" />
     </div>
+    </div>   
+
+  
+
+
   );
 }
 
 export default App;
+
+
+
