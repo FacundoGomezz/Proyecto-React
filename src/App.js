@@ -1,6 +1,7 @@
 import React from 'react';
-import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/Navbar';
+import ItemListContainer from './components/ItemListContainer';
+
 
 function App() {
   const brandName = "TutuMarket";
