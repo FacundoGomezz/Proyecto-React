@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.navbar {
+  background-color: #ecdb3f;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.category-button {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-itemss {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  background-color: orange;
+  border: 1px solid #761c1c;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.body {
+  background-color: rgb(151, 50, 50);
+}
+
+.products {
+  background-color: grey;
+}
+
+.cart {
+  background-color: #ecdb3f;
+}

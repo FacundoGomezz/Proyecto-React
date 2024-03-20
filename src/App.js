@@ -1,14 +1,16 @@
 import React from 'react';
 import NavBar from './components/Navbar';
 import ItemListContainer from './components/ItemListContainer';
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import AboutPage from './AboutPage'; 
+import ContactPage from './ContactPage';
 
 function App() {
-  const brandName = "TutuMarket";
+  const brandName = "";
   const categories = [
-    { id: 1, name: "Cocina y Alimentos" },
-    { id: 2, name: "Electrónica" },
-    { id: 3, name: "Hogar y Jardín" },
+    { id: 1, name: "" },
+    { id: 2, name: "" },
+    { id: 3, name: "" },
   ];
 
   return (
@@ -26,6 +28,9 @@ function App() {
 }
 
 export default App;
+
+
+
 
 
 
